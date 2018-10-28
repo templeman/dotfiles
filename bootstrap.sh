@@ -3,7 +3,7 @@
 # TODO: support Linux?
 [ "$(uname -s)" == "Darwin" ] || exit 1
 
-dotfiles_dir="$HOME/Documents/developer/dotfiles"
+dotfiles_dir="$HOME/Code/dotfiles"
 
 is_installed() {
   command -v "$1" >/dev/null 2>&1

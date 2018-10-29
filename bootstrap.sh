@@ -18,7 +18,7 @@ if [ -d "${dotfiles_dir}/.git" ]; then
   cd "${dotfiles_dir}"
   git pull || exit 1
 else 
-  git clone https://github.com/mwilliammyers/dotfiles.git "${dotfiles_dir}" || exit 1
+  git clone https://github.com/templeman/dotfiles.git "${dotfiles_dir}" || exit 1
   cd "${dotfiles_dir}"
 fi
 

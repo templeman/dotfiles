@@ -12,8 +12,8 @@
       # tags: gnu-tools
     # - role: dotstrap.macos
       # tags: macos
-    - role: dotstrap.xdg
-      tags: xdg
+    # - role: dotstrap.xdg
+    #   tags: xdg
 
   tasks:
     - name: homebrew_tap | install

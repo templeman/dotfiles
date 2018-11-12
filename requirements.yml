@@ -1,7 +1,7 @@
 ---
 
-# - name: neovim
-#   src: https://github.com/templeman/ansible-neovim
+- name: neovim
+  src: https://github.com/templeman/ansible-neovim
 # - src: dotstrap.dircolors
 # - src: dotstrap.enhancd
 # - src: dotstrap.fish

@@ -5,10 +5,10 @@
   vars_files:
     - secrets
 
-  roles:
-    - role: dotstrap.ssh 
-      tags: ssh
-    - role: ansible
-      tags: ansible
+  # roles:
+  #   - role: dotstrap.ssh 
+  #     tags: ssh
+  #   - role: ansible
+  #     tags: ansible
    
 - include: site.yml 
